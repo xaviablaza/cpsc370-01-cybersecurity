@@ -2,3 +2,5 @@ version: "3"
 services:
   kali:
     image: xaviablaza/cpsc370-01-cybersecurity:latest
+    stdin_open: true
+    tty: true

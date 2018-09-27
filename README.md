@@ -14,3 +14,12 @@ background
 - f) When you are ready to quit, type `exit`
 - g) The next time you want to use the container, start it: `docker start kali`
 - h) And then attach to it: `docker attach kali`
+
+## With docker-compose
+
+- Clone this repository
+- `cd` into this repo folder
+- Run `docker-compose run kali /bin/bash`
+- When you are ready to quit, type `exit`
+- The next time you want to use the container, do `docker-compose run kali /bin/bash` in this folder
+- Voilà you are done.
